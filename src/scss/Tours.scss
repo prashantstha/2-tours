@@ -1,0 +1,25 @@
+.section-tours {
+    max-width: 600px;
+    margin: 0 auto;
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.tour-lists {
+    .card {
+        margin-top: 30px;
+        &-title {
+            display: flex;
+            margin-bottom: 20px;
+            .badge {
+                margin-left: auto;
+            }
+        }
+        .btn-not-intrested {
+            min-width: 300px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
